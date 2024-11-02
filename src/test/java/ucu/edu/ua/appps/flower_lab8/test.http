@@ -1,0 +1,10 @@
+GET http://localhost:8080/api/v1/user: 
+
+POST http://localhost:8080/api/v1/user: 
+Content-Type: application/json
+
+{
+    "email" : "email@email",
+    "age" : 4,
+    "dob" : "2001-01-15",
+}
