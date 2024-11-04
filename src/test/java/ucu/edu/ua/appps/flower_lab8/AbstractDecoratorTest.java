@@ -3,12 +3,12 @@ package ucu.edu.ua.appps.flower_lab8;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ucu.edu.ua.appps.flower_lab8.decorator.AbstractDecorator;
+import ucu.edu.ua.appps.flower_lab8.decorator.ItemDecorator;
 import ucu.edu.ua.appps.flower_lab8.model.Flower;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class BasicDecorator extends AbstractDecorator {
+class BasicDecorator extends ItemDecorator {
     public BasicDecorator(Flower flower) {
         super(flower);
     }

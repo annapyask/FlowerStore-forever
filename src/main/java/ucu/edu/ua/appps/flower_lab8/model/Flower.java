@@ -24,4 +24,13 @@ public class Flower {
     private String color;
     private Double price;
     private boolean available;
+
+    public String getDescription() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }
+
